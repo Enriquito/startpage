@@ -1,0 +1,79 @@
+.flex
+{
+	display: flex;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+}
+.wrap
+{
+	flex-wrap: wrap;
+	-webkit-flex-wrap: wrap;
+	-moz-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+}
+.blur
+{
+	-webkit-filter: blur(10px);
+	-moz-filter: blur(10px);
+	-o-filter: blur(10px);
+	-ms-filter: blur(10px);
+	filter: blur(10px);
+}
+.link
+{
+	font-weight: bold;
+	color: #FFF;
+}
+.center
+{
+	justify-content: center;
+	justify-content: -webkit-center;
+	justify-content: -moz-center;
+	justify-content: -ms-center;
+}
+.even-space
+{
+	justify-content: space-evenly;
+}
+.vertical-center
+{
+	align-items: center;
+}
+.ellipsis
+{
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.capitalize
+{
+	text-transform: capitalize;
+}
+.scroll-y
+{
+	overflow-y: scroll;
+}
+.no-margin
+{
+	margin: 0;
+}
+.inline-block
+{
+	display: inline-block;
+}
+::-webkit-scrollbar
+{
+	width: 0px;
+	background: transparent;
+}
+::-moz-scrollbar
+{
+	width: 0px;
+	background: transparent;
+}
+::-ms-scrollbar
+{
+	width: 0px;
+	background: transparent;
+}
